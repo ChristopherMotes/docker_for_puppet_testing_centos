@@ -1,0 +1,7 @@
+{ "aws_tags" : {
+  	"Environment" : "production",
+  	"Function" : "2FA",
+  	"Name" : "jump1-dev.ec2.acumera.net",
+  	"Product" : "jump"
+	}
+}

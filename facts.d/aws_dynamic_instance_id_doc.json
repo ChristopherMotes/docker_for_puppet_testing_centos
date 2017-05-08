@@ -1,0 +1,14 @@
+{ "aws_dynamic_instance_id_doc" : 
+{
+  "availabilityZone" : "us-east-1a",
+  "privateIp" : "10.0.1.6",
+  "version" : "2010-08-31",
+  "accountId" : "476152530006",
+  "instanceId" : "i-1cb280c8",
+  "instanceType" : "t2.micro",
+  "imageId" : "ami-f4f6809e",
+  "pendingTime" : "2016-04-07T20:25:30Z",
+  "architecture" : "x86_64",
+  "region" : "us-east-1"
+}
+}
