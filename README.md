@@ -1,4 +1,10 @@
 #
+Testing puppet modules can get messy when reusing hosts. Unexpected files get installed on a first development run. Troubleshooting occurs for another error. Then you lose that first files installed. Working with a container ensure a fresh template evertime you test a module.
+## Preparation
+* clone repo
+* build /etc/puppetlabs/code, preferably with r10k
+* remove latency causing custom facts. Those facts that make curl calls etc
+* be prepared for failure errors from systemd, dbus, and cron
 ## command examples
 ### modules all modules
 ```
